@@ -5,11 +5,14 @@
 /* Links */
 
 a,
-a:focus,
-a:hover {
-  color: #83ceff;
+a:focus {
+  color: #404040;
+  text-decoration: underline;
 }
 
+a:hover {
+  color: #5dc6e0;
+}
 /*
  * Base structure
  */
@@ -28,9 +31,15 @@ body {
   justify-content: center;
   color: #404040;
 }
-
+h1 {
+  font-size: 500%
+}
 p.lead {
- color: #005f9e
+ color: #005f9e;
+ font-size: 200%
+}
+p {
+  font-size: 150%
 }
 .cover-container {
   max-width: 42em;
