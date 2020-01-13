@@ -20,7 +20,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  padding-block-start: 10%
+  padding-block-start: 5%;
 }
 
 body {
@@ -42,6 +42,9 @@ p.lead {
 }
 p {
   font-size: 150%
+}
+p.bottom {
+  padding-bottom: 5%;
 }
 .cover-container {
   max-width: 42em;
